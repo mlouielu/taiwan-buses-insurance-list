@@ -26,7 +26,8 @@ def main(ptype, total):
                     (v[-1], d['公司名稱'], d[insu], f"[查看]({d['url']})"))
 
     for insu in INSURS:
-        print(f'#類型: {insu}\n')
+        print(f'#類型: {insu}')
+        print('================\n')
 
         print('| 金額 | 公司名稱 | 全文 | 連結 |')
         print('| --- | --- | --- | --- |')
